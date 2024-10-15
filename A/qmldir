@@ -1,0 +1,8 @@
+module A
+linktarget Aplugin
+optional plugin Aplugin
+classname APlugin
+typeinfo A.qmltypes
+prefer ./A/
+A 254.0 A.js
+
