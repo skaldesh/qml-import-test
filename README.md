@@ -17,7 +17,7 @@ qml: Hello from B
 qml: Calling B from Main
 qml: Hello from B
 ```
-Now modify the message printed inside `B.test()` and **restart the app without building**
+Now modify the message printed inside `B.test()`, located in `B/B.js`, and **restart the app without building**
 ```
 qml: Calling A from Main
 qml: Calling B from A
