@@ -1,10 +1,3 @@
-/**
- * nLine
- * 
- * Copyright (c) 2024 Wahtari GmbH
- * All rights reserved
- */
-
 // Qt imports.
 #include <QApplication>
 #include <QQmlApplicationEngine>
