@@ -1,8 +1,3 @@
-# nLine
-# 
-# Copyright (c) 2024 Wahtari GmbH
-# All rights reserved
-
 # 3.21.1 is the minimum required version for static Qt builds.
 cmake_minimum_required(VERSION 3.21.1)
 
