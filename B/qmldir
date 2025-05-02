@@ -3,6 +3,5 @@ linktarget Bplugin
 optional plugin Bplugin
 classname BPlugin
 typeinfo B.qmltypes
-prefer ./B/
 B 254.0 B.js
 

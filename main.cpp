@@ -22,8 +22,11 @@ int main(int argc, char *argv[]) {
         Qt::QueuedConnection
     );
 
+	//qDebug() << engine.importPathList();
+    engine.setImportPathList({"/home/skaldesh/projects/skaldesh/qml-import-test/build", "qrc:/qt-project.org/imports", "/usr/lib/qt6/qml"});
+
     // Load the main qml file.
-    engine.load(QUrl(QString::fromStdString("./Main.qml")));
+    engine.load(QString::fromStdString("./Main.qml"));
 
     // Run the app.
     return app.exec();
